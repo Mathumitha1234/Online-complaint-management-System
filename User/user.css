@@ -1,0 +1,100 @@
+body{
+    position: relative;
+    background-size: cover;
+  }
+  .login{
+      height: 100%;
+      margin-top: 15%;
+      margin-bottom: 20%;
+      margin-left: 30%;
+      margin-right: 30%;
+  }
+  .inpt{
+      padding: 10px;
+      padding-left: 9%;
+  }
+  .inpt input{
+      border-color: rgb(47, 210, 255);
+      padding:10px;
+      border-radius: 10px;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      cursor: text;
+      width: 400px;
+  }
+  .ml{
+      padding: 10px;
+      padding-left: 25%;
+      display: block;
+  }
+  .ml button{
+      padding: 10px;
+      margin-left: 30px;
+      border-color: rgb(47, 210, 255);
+      box-sizing: border-box;
+      border-radius: 10px;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      cursor: pointer;
+  }
+  .ml button:hover{
+    background-color: dodgerblue;
+    color: white;
+  }
+  .mlk{
+    padding: 10px;
+    margin-left: 35%;
+    display: block;
+  }
+  .mlk button{
+    padding: 10px;
+    margin-left: 30px;
+    border-color: rgb(47, 210, 255);
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+  }
+  /* The Modal (background) */
+  .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    }
+    
+    /* Modal Content/Box */
+    .modal-content {
+      border-top-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+      margin-left: 30%;
+      background-color: #fefefe;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-right: 10px ;
+      margin-top:120px; /* 15% from the top and centered */
+      border: 1px solid #888;
+      width: 40%; /* Could be more or less, depending on screen size */
+    }
+    
+    /* The Close Button */
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }

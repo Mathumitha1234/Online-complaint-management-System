@@ -1,0 +1,168 @@
+.topnav {
+    overflow: hidden;  background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 60px;
+    text-decoration: none;
+    font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+  }
+  
+  .topnav a:hover {
+    background-color: pink;
+    color: black;
+  }
+  .details{
+    padding: 10px;
+    font-size:30px;
+    font-family: Times New Roman;
+    font-style: italic;
+  }
+  .details table{
+    padding: 10px;
+    font-size:30px;
+    font-family: Times New Roman;
+    font-style: italic;
+  }
+  .details td{
+    padding: 10px;
+    font-size:30px;
+    font-family: Times New Roman;
+    font-style: italic;
+  }
+  
+  .home{
+  height:100%;
+  text-align:left;
+  }
+  .mk{
+  margin-left:10%;
+  margin-right:10%;
+  font-size:40px;
+  }
+  .product{
+  margin:auto;
+  height:100%;
+  display:flex;
+  align-items:center;
+  }
+  
+  .products .btt{
+    margin-left: 500px;
+    margin-bottom: 20px;
+  }
+  .products{
+    background-color: aquamarine;
+    margin:auto;
+    height:100%;
+    align-items:center;
+    }
+    .about{
+      background-color: darkgray;
+      margin:auto;
+      height:100%;
+      align-items:center;
+      }
+  .mlk{
+    padding: 10px;
+    margin-left: 35%;
+    display: block;
+  }
+  .mlk button{
+    padding: 10px;
+    margin-left: 30px;
+    border-color: aqua;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+  }
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-left: 30%;
+    background-color: #fefefe;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px ;
+    margin-top:50px; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+    
+  }
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  img{
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  input,select,option,button{
+    border-color: aqua;
+    padding:10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: text;
+    width: 200px;
+   
+}
+.product table{
+  background-color:mediumturquoise ;
+  font-size: 22px;
+  padding: 30px;
+  justify-content: center;
+  text-align: justify;
+  border: 5px solid mediumturquoise;
+}
+.product td,tr,th{
+  background-color: white;
+  padding: 15px;
+  border: 5px solid mediumturquoise;
+}
+.inpt{
+  padding: 10px;
+  padding-left: 9%;
+}
+.inpt input{
+  border-color: aqua;
+  padding:10px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  cursor: text;
+  width: 400px;
+  border-style: groove;
+}
